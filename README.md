@@ -1,4 +1,5 @@
 # Train-api
+Packaged with Typescript, Docker, PM2, Eslint, Prettier, VSCode config, Winston, Nodemon, Mocha, chai, supertest, Editorconfig, OpenAPI/Swagger, Jaeger/Open Tracing, etc.
 
 ## Basic Concepts behind the architecture
 
