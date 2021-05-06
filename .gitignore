@@ -1,0 +1,11 @@
+node_modules/
+logs
+pm2-prod.json
+pm2-alpha.json
+.idea/
+dist/
+docs/
+.scannerwork
+.env
+package-lock.json
+coverage
