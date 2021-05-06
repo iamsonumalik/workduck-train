@@ -12,7 +12,6 @@
 
 ## Deployment instructions
 
-
 ## Environmental Variables
 
 You can set up the environmental variables in the .env file and that will get used in files like docker-compose, Dockerfile, etc.
@@ -21,9 +20,11 @@ sample.env is available in this repo.
 Run `cp sample.env .env` to copy that file into .env and do changes according to your environment.
 
 ### Normal Installation
+
 Before running make sure that you have setup your environment.
 
 ####Manual
+
 1. Install node.js and git
 2. Add them to path if not already in path.
 3. Install typescript globally with `npm install typescript -g`
@@ -32,7 +33,7 @@ Before running make sure that you have setup your environment.
 6. Run `npm run-script start-dev`
 
 #### Script dev-start using pm2
-Make sure that you have pm2 installed in you machine.
+
 Run `./scripts/deploy.sh`
 
 ### Cloning & Running with Docker
@@ -45,8 +46,7 @@ Run `./scripts/deploy.sh`
 ### Running via PM2
 
 1. Install node.js and [pm2](https://github.com/Unitech/pm2)
-2. CD to the pm2 directory
-3. Run `pm2 start pm2-dev.json` to start the development cluster
+2. Run `./scripts/deploy.pm2.sh` to start the development cluster
 
 ## Building the code
 

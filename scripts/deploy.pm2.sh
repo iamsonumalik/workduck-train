@@ -6,4 +6,5 @@ echo `pwd`
 npm i
 cd ..
 echo `pwd`
-npm run start-dev
+npm run build
+pm2 start pm2.config.js
